@@ -7,6 +7,6 @@ puts "Where would you like to go?"
 
 answer = gets.strip
 
-input_to_index(answer)
+
 
 # Code your CLI Here
