@@ -2,7 +2,7 @@
 
 require_relative '../lib/move.rb'
 
-
+board = [" "," "," "," "," "," "," "," "," "]
 
 display_board(board)
 
@@ -11,7 +11,7 @@ puts "Where would you like to go?"
 
 answer = gets.strip
 
-input_to_index(answer)
+move(board,answer,"X")
 
 
 
