@@ -10,6 +10,7 @@ def input_to_index(answer)
   puts answer.to_i
 end
 
-def move
+def move(board,answer,value)
+  board[answer] = value
 end
 # code your input_to_index and move method here!
