@@ -11,7 +11,7 @@ puts "Where would you like to go?"
 
 answer = gets.strip
 
-move(board,answer,"X")
+move(board,input_to_index,"X")
 
 
 
