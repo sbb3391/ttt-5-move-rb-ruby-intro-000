@@ -9,9 +9,11 @@ display_board(board)
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
-answer = gets.strip
+input = gets.strip
 
-move(board,input_to_index,"X")
+index = input_to_index
+
+move(board,index,"X")
 
 
 
