@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 def input_to_index(answer)
-  puts answer.to_i
+  answer.to_i
 end
 
 def move(board,answer,value)
