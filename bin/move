@@ -2,6 +2,8 @@
 
 require_relative '../lib/move.rb'
 
+"Welcome to Tic Tac Toe!"
+
 answer = gets.strip
 
 input_to_index(answer)
