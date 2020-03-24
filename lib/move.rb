@@ -11,7 +11,7 @@ def input_to_index(answer)
 end
 
 def move(board,input_to_index,value)
-  board[input_to_index] = value
   value = "X"
+  board[input_to_index] = value
 end
 # code your input_to_index and move method here!
