@@ -16,7 +16,7 @@ move(board,index)
 
 display_board(board)
 
-board = [" "," "," "," "," "," "," "," "," "]
+
 
 
 
